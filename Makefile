@@ -1,3 +1,6 @@
+cov:
+	docker-compose run users-service python manage.py cov
+
 start:
 	docker-compose up -d
 
